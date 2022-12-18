@@ -17,5 +17,3 @@ C)With using explict wait ------>
 		a)org.openqa.selenium.TimeoutException: till 80 seconds
 		b)
 
-d) with explite wait & with thread.sleep
-		a)org.openqa.selenium.TimeoutException: till 80 seconds
