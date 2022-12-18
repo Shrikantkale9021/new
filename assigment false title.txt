@@ -1,0 +1,21 @@
+1)  //Program For Applaying Waits For false Condition On actitime Application for getTiltle()
+
+a)withoute thread.sleep ------> 
+   		
+		expectedtitle = ("Enter Time-Track123")  //WRONG INPUT
+		actualtitle= actiTIME - Login            [LOGIN PAGE]
+		False: Title is not matching 
+
+b) with thread.sleep ------->
+		
+		EXPECTEDTITLE:-- Enter Time-Track123
+		ACTUALTITLE :---- actiTIME - Enter Time-Track [HOME PAGE]
+		False: Title is not matching
+		actiTIME - Enter Time-Track                    [HOME PAGE]
+
+C)With using explict wait ------>
+		a)org.openqa.selenium.TimeoutException: till 80 seconds
+		b)
+
+d) with explite wait & with thread.sleep
+		a)org.openqa.selenium.TimeoutException: till 80 seconds
